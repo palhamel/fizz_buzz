@@ -6,6 +6,10 @@ def fizz_buzz(number)
       'fizz'
     elsif number % 5 == 0
       'buzz'
+    elsif number % 4 == 0
+      'ZAP!'
+    elsif number % 17 == 17
+      'Raggadish'
     else
       number
     end 

@@ -19,6 +19,14 @@ describe 'fizz_buzz' do
         expect(fizz_buzz(15)).to eq 'fizzbuzz'
     end
 
+    it "returns 'ZAP!' if number is divisible by 4" do
+        expect(fizz_buzz(4)).to eq 'ZAP!'
+    end
+
+    it "returns 'Raggadish' if number is 17" do
+        expect(fizz_buzz(17)).to eq 17
+    end
+
 end
 
 
